@@ -1,0 +1,118 @@
+.head {
+    margin-top: 15px;
+    margin-right: 30px;
+    display: block;
+    float:none;
+    width: 100%;
+    position: absolute;
+    top: 1px;
+}
+/* account */
+.account {
+    border: 1px solid #4285F4;
+    background: #4387FD;
+    line-height: 28px;
+    padding: 0px 12px;
+    text-align: center;
+    border-radius: 2px;
+    float: right;
+    margin-right: 35px;
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 13px;
+    
+}
+/* google apps */ 
+.google-apps {
+    height: 20px; width: 20px;
+    float: right;
+    margin: 5px 20px 0px 15px;
+}
+.google-apps tr {
+    height:4px; width: auto;
+    margin; 2px 0px 2px 0px;
+}
+.google-apps td{
+    width: 4px; height: auto;
+    margin: 0px 2px 0px 2px;
+    background: #939393;
+}
+/* ./Google apps */
+.link {
+    float: right;
+    line-height: 28px;
+    padding: 0px 6px 0px 6px;
+    font-family: arial;
+    color: #333333;
+    font-size: 13px;
+    
+}
+a .link:hover {
+    text-decoration: underline;
+}
+
+img {
+    display: block;
+    margin: auto;
+    height: 30%; width: 30%;
+    margin-top: 160px;
+}
+
+#search-bar {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    height: 30px; width: 575px;
+}
+
+#buttons {
+    display: block;
+    margin: auto;
+    margin-top: 27px;
+    height: 50px; width: 300px;
+}
+
+.button {
+    height: 35px; width: 140px;
+    background: rgba(230, 230, 230, 0.45);
+    line-height: 35px;
+    text-align: center;
+    margin: 3px;
+    font-family: arial; 
+    font-size:  13px;
+    font-weight: bold;
+    color: #6d6d6d;
+}
+
+
+.footer {
+    position: absolute;
+    bottom: 0px;
+    display: inline-block;
+    width: 100%;
+    margin-left: -8px;
+    background: rgba(230, 230, 230, 0.45);
+}
+.l_ftr {
+    display: inline;
+    float: left;
+    padding: 14px 5px 12px 28px;
+    color: #6d6d6d;
+    font-family: arial; 
+    font-size:  13px;
+}
+.r_ftr {
+    display: inline;
+    float: right;
+    padding: 14px 28px 12px 5px;
+    color: #6d6d6d;
+    font-family: arial; 
+    font-size:  13px;
+}
+a .l_ftr:hover {
+    text-decoration: underline;
+}
+a .r_ftr:hover {
+    text-decoration: underline;
+}
